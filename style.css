@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+header{
+    background-color: #f0f0f0;
+    z-index: 999;
+    position: fixed;
+    padding-left: 90px;
+    padding-right: 150px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: rgb(5, 72, 216);
+}
+.nav a {
+text-decoration: none;
+margin: 0px 7PX;
+font-size: 1.1em;
+font-weight: 500;
+color: rgb(5, 72, 216);
+transition: .9s ease;
+}
+.nav a:hover{
+    color: #1700e4;
+    font-size: larger;
+    
+}
+section{
+    padding-top: 20%;
+    font-size: 1.2em;
+   
+}
+.about{
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/pexels-satoshi-hirayama-4058530.jpg)no-repeat;
+    background-attachment: fixed;
+    padding-left: 17%;
+    font-size: 1.5em;
+}
+.main-botton{
+background-color: #1d32f5;
+color: #f0f0f0;
+border-radius: 15px;
+padding: 10px 15px;
+font-size: .9em;
+display: inline-block;
+margin-top: 5px;
+margin-left: 30px;
+transition: .9s ease;
+}
+.main-botton:hover {
+    transform: scale(1.1);
+    background-color: #000fe4;
+}
+.ser {
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+color: #0035e4;
+}
+.content {
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    width: 23.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 40%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: .9s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.info {
+    text-align: center;
+}
+.info h3{
+    color: #000fe4;
+    font-weight: 800;
+    margin: 10px;
+}
+.icon {
+    color: #1d32f5;
+    font-size: 4em;
+    font-weight: 700;
+    text-align: center;
+}
+.pr {
+    text-align: center;
+    color: #0035e4;
+    font-weight: 900;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.car {
+    background-color: #fff;
+    width: 21.2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 2 1 /40%);
+    padding: 10px;
+    margin: 15px;
+    transition: .7s ease;
+    min-height: 10em;
+}
+.car:hover{
+    transform: scale(1.1);
+}
+.first {
+    background: url(images/risen-wang-20jX9b35r_M-unsplash.jpg)no-repeat;
+}
+.work {
+    display: flex;
+    justify-content: center;
+    color: #0035e4;
+}
+.footer {
+    background-color: #0a0c1f;
+    padding: 10px;
+    margin-top: 20em;
+    display: flex;
+    justify-content: center;
+    font-size: .7em;
+}
+.footer p{
+    color: #f0f0f0;
+}
